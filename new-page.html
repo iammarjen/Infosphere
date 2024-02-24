@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="viewport" content="width=device-width, initial-scale=1.0 "/>
+         <title>Encyclopedia</title>
+         <link rel="stylesheet" href="index.css">
+     </head>
+     <body>
+         
+             <nav>
+                <li><a href="Wikipedia.html">Home</a></li>
+                
+             </nav>
+
+             <br><br><div class="new-page center">
+                <form action="/update" method="post">
+                  <h3><label for ="PageTitle" >Page Title: </label></h3>
+                    <input type="text" id="pageTitle"name="page title"required><br><br>
+  
+                   <h3><label for="content">Page content:</label></h3> 
+                    <textarea id="Content"name="Page content" rows="5" required></textarea>
+  
+                    <button type="submit">create page</button>
+                </form>
+  
+  
+            </div>
+        
+     </body>
+ </html>
